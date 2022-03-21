@@ -1,0 +1,157 @@
+/**
+ * @Author: Your name
+ * @Date:   2022-03-16 08:16:39
+ * @Last Modified by:   Your name
+ * @Last Modified time: 2022-03-21 20:25:23
+ */
+#welcome-section{
+    text-align:center;
+     
+     font-family: 'Times New Roman', Times, serif;
+     color: black;
+}
+.welcome-pic{
+  height: 265px;
+  width:275px;
+  border-radius: 50%;
+}
+.welcome-container{
+  color:black;
+ margin-top: 50px;
+}
+.paragraph{
+    text-align:center;
+    color: black;
+}
+body{
+ background-color:white;
+}
+#navbar{
+ background-color: black;
+ color:white;
+ padding:10px;
+}
+.nav{
+ font-family: 'Times New Roman', Times, serif;
+ text-align: center;
+ color:white;
+ align-content: flex-end;
+}
+.container{
+    color:black;
+   margin-top: 40px;
+}
+#projects{
+    text-align:center;
+    margin-top: 10px;
+    color: black;
+    background-color:#0661a7
+}
+ #profile{
+   color: black;
+   margin-top: 50px;
+   background-image: url(assets/images/kariuki.jpg);
+ } 
+
+  @media screen and (min-width: 1920px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+
+  .icons{
+  margin-bottom: 150px;
+  align-items: center;
+}
+  /* Style all font awesome icons */
+.fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 100px;
+ 
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #dd2323;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github{
+  font-size:24px;
+} 
+.container-profile{
+  color:black;
+  margin-top: 5px;
+  padding: 50px;
+}
+#services{
+  color:white;
+  text-align:center;
+  margin-top: 25px;
+  background-color: #ca801e;
+}
+.h3-heading{
+  text-align: center;
+  color:white;
+  margin-top:30px;
+}
+.services-heading{
+  text-align: center;
+  color:black;
+}
+.box{
+  display:flex;
+  color:black;
+  flex-direction: column;
+  width: 350px;
+  height: 450px;
+  border: 1px solid rgb(8, 8, 8);
+  margin:50px;
+  align-items: center;
+  text-align:justify;
+  padding:10px;
+  border-radius: 15px;
+  background: linear-gradient(to top, rgb(240, 6, 6),white);
+  background-size: 100% 200;
+  transition: all.8s;
+}
+.box:hover {
+  opacity: 3.7;
+  box-shadow: 0 0 20px rgb(240, 6, 6);
+  border: none;
+}
+#contacts{
+  background-color: black;
+  color:white;
+  align-items: center;
+}
+.form{
+  align-items: center;
+  color:white;
+  padding:30px;
+}
