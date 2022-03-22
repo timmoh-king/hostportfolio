@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2022-03-16 08:16:39
  * @Last Modified by:   Your name
- * @Last Modified time: 2022-03-21 20:25:23
+ * @Last Modified time: 2022-03-22 07:00:47
  */
 #welcome-section{
     text-align:center;
@@ -52,6 +52,11 @@ body{
    margin-top: 50px;
    background-image: url(assets/images/kariuki.jpg);
  } 
+ .verse{
+ color: rgb(110, 9, 9);
+ align-items: center;
+ padding: 15px;
+ }
 
   @media screen and (min-width: 1920px) {
     body {
@@ -60,8 +65,13 @@ body{
   }
 
   .icons{
-  margin-bottom: 150px;
-  align-items: center;
+    align-items: center;
+    color:white;
+    margin: auto;
+    width: 50%;
+    border: 1px solid rgb(24, 223, 67);
+    padding: 15px;
+ 
 }
   /* Style all font awesome icons */
 .fa {
@@ -153,5 +163,14 @@ body{
 .form{
   align-items: center;
   color:white;
-  padding:30px;
+  margin: auto;
+  width: 50%;
+  border: 1px solid rgb(24, 216, 223);
+  padding: 15px;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(24, 216, 223);
+  padding: 10px;
 }
